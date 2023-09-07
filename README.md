@@ -1,0 +1,2 @@
+# EfficientNet_Classification_DeepTooth
+Train Classification to predict Gender using EfficientNetB0
