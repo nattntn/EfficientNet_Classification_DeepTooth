@@ -6,7 +6,7 @@ Train Classification to predict Gender using EfficientNetB0
 ```batch_size = 16
 width = 150
 height = 150
-epochs = 250
+epochs(All!) = 1050 (250250,250,250,50)
 dropout_rate = 0.2
 input_shape = (height, width, 3)
 ```
