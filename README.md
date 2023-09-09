@@ -28,7 +28,7 @@ class_mode= categorical
 loss= categorical_crossentropy
 optimizer= RMSprop
 metrics= accuracy
-#
+```
 ### [Train รอบที่ 1 (250 epochs, Freeze)](ของรุ่นพี่_Class_1_Train_2e_4_Freeze.ipynb)
 #### Train จากชุดข้อมูลใหม่
 ```
