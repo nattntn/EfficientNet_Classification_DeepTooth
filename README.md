@@ -34,17 +34,18 @@ metrics= accuracy
 ```
 learning_rate=2e-4
 ```
+#### [Train ของรุ่นพี่](https://github.com/Wanita-8943/run/blob/main/GG1_Train_2e_4_Freeze.ipynb)
+```
+learning_rate=2e-4
+```
 ### [Predict รอบที่ 1](ของรุ่นพี่_01_Predict_Class.ipynb)
 #### ผลจากชุดข้อมูลใหม่
 - classification accuracy: 70.10 % 
 - MAE: 0.2990455991516437
 - MSE: 0.2990455991516437
 - RMSE: 0.5468506186808639  
-#### [Train ของรุ่นพี่](GG1_Train_2e_4_Freeze.ipynb)
-```
-learning_rate=2e-4
-```
-#### [ผลจากรุ่นพี่](https://github.com/Wanita-8943/Main_Project/blob/main/A2_Predict_Freeze.ipynb)
+
+#### [ผลจากรุ่นพี่](https://github.com/Wanita-8943/run/blob/main/Predict_GG1_2e_4_250%E0%B8%A3%E0%B8%AD%E0%B8%9A.ipynb)
 * MAE: 0.36105263157894735
 * MSE: 0.36105263157894735
 * RMSE: 0.6008765526952665
