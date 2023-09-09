@@ -10,15 +10,12 @@ epochs = 250
 dropout_rate = 0.2
 input_shape = (height, width, 3)
 ```
-### [Train รอบที่ 1 (250 epochs, Freeze)]()
+### [Train รอบที่ 1 (250 epochs, Freeze)](ของรุ่นพี่_Class_1_Train_2e_4_Freeze.ipynb)
 
 #### Train จากชุดข้อมูลใหม่
-![image](https://github.com/natthanich/EfficientNet_Deeptooth/assets/108257658/364c2adb-6d7e-415a-8400-3a79c544e4e2)
-![image](https://github.com/natthanich/EfficientNet_Deeptooth/assets/108257658/70e9cfe7-5e7b-4795-9eff-c31009da653a)
+
 
 #### [Train ของรุ่นพี่](https://github.com/Wanita-8943/Main_Project/blob/main/A2_Train_Freeze.ipynb) 
-![image](https://github.com/natthanich/EfficientNet_Deeptooth/assets/108257658/3f103b80-8a95-4704-9ed6-362ef9bc80df)
-![image](https://github.com/natthanich/EfficientNet_Deeptooth/assets/108257658/ee64b657-4d78-43bd-b43b-866d9003a7f8)
 
 ## [Predict รอบที่ 2]()
 #### ผลจากชุดข้อมูลใหม่
