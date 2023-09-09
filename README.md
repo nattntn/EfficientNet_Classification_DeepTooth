@@ -39,10 +39,7 @@ learning_rate=2e-4
 - classification accuracy: 70.10 % 
 - MAE: 0.2990455991516437
 - MSE: 0.2990455991516437
-- RMSE:0.5468506186808639
-- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/da71ef2a-9349-43ff-9684-64686d727713)
-- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/271af414-8ec2-4b56-b35e-c8217d9b7049)
-- 
+- RMSE: 0.5468506186808639  
 #### [Train ของรุ่นพี่](GG1_Train_2e_4_Freeze.ipynb)
 ```
 learning_rate=2e-4
@@ -51,8 +48,7 @@ learning_rate=2e-4
 * MAE: 0.36105263157894735
 * MSE: 0.36105263157894735
 * RMSE: 0.6008765526952665
-- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/e0ef1538-218c-4005-957f-e774731d846b)
-- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/15b40117-22d9-41e6-8622-9cd29d862443)
+
 
 
 
