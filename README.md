@@ -34,15 +34,6 @@ metrics= accuracy
 ```
 learning_rate=2e-4
 ```
-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/9a8cc369-dee1-4cd2-90af-83224ce98ca0)
-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/f03b915e-a706-4f91-b2ca-dea3ee6a5eb9)
-#### [Train ของรุ่นพี่](GG1_Train_2e_4_Freeze.ipynb)
-```
-learning_rate=2e-4
-```
-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/e5c2cf64-2548-4a05-87ab-cfccddec804e)
-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/03a2e208-9bd6-42b5-ad2a-748af20cbfcc)
-
 ### [Predict รอบที่ 1](ของรุ่นพี่_01_Predict_Class.ipynb)
 #### ผลจากชุดข้อมูลใหม่
 - classification accuracy: 70.10 % 
@@ -51,7 +42,11 @@ learning_rate=2e-4
 - RMSE:0.5468506186808639
 - ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/da71ef2a-9349-43ff-9684-64686d727713)
 - ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/271af414-8ec2-4b56-b35e-c8217d9b7049)
-
+- 
+#### [Train ของรุ่นพี่](GG1_Train_2e_4_Freeze.ipynb)
+```
+learning_rate=2e-4
+```
 #### [ผลจากรุ่นพี่](https://github.com/Wanita-8943/Main_Project/blob/main/A2_Predict_Freeze.ipynb)
 * MAE: 0.36105263157894735
 * MSE: 0.36105263157894735
