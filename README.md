@@ -36,7 +36,6 @@ learning_rate=2e-4
 ```
 ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/9a8cc369-dee1-4cd2-90af-83224ce98ca0)
 ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/f03b915e-a706-4f91-b2ca-dea3ee6a5eb9)
-
 #### [Train ของรุ่นพี่](GG1_Train_2e_4_Freeze.ipynb)
 ```
 learning_rate=2e-4
@@ -50,7 +49,7 @@ learning_rate=2e-4
 - MAE: 0.2990455991516437
 - MSE: 0.2990455991516437
 - RMSE:0.5468506186808639
--![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/da71ef2a-9349-43ff-9684-64686d727713)
+- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/da71ef2a-9349-43ff-9684-64686d727713)
 - ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/271af414-8ec2-4b56-b35e-c8217d9b7049)
 
 #### [ผลจากรุ่นพี่](https://github.com/Wanita-8943/Main_Project/blob/main/A2_Predict_Freeze.ipynb)
@@ -58,7 +57,8 @@ learning_rate=2e-4
 * MSE: 0.36105263157894735
 * RMSE: 0.6008765526952665
 - ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/e0ef1538-218c-4005-957f-e774731d846b)
-- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/d0490614-4e54-4af6-b500-6b14ee7fbe1e)
+- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/15b40117-22d9-41e6-8622-9cd29d862443)
+
 
 
 
