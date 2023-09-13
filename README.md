@@ -2,6 +2,7 @@
 Train Classification to predict Gender using EfficientNetB0
 
 # แบบที่ 1 แบบรุ่นพี่
+Drive: Model --> EfficientNet_Class_ตามรุ่นพี่
 ## Parameter
 ```batch_size = 16
 width = 150
@@ -129,6 +130,7 @@ learning_rate=8e-5
 - RMSE: 0.38941454820017574
 
 # แบบที่ 2 224
+Drive: Model --> EfficientNet_Class_Func_224
 ## Parameter
 ```
 batch_size = 16
