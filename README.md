@@ -127,3 +127,83 @@ learning_rate=8e-5
 - MAE: 0.15164369034994699
 - MSE: 0.15164369034994699
 - RMSE: 0.38941454820017574
+
+# แบบที่ 2 224
+## Parameter
+```
+batch_size = 16
+width = 224
+height = 224
+epochs(All!) = 1250 (250,250,250,250,250)
+dropout_rate = 0.2
+input_shape = (height, width, 3)
+```
+## DataGenerator
+```
+rescale=1./255, #โมเดลส่วนใหญ่ต้องใช้ RGB ในช่วง 0–1
+rotation_range=40,
+width_shift_range=0.2,
+height_shift_range=0.2,
+shear_range=0.2,
+zoom_range=0.2,
+horizontal_flip=True,
+fill_mode='nearest')
+-----------------------------------
+class_mode = 'raw',
+color_mode= 'rgb',
+```
+## compile
+```
+loss= binary_crossentropy
+optimizer= Adam
+metrics= accuracy
+```
+### [Train รอบที่ 1 (250 epochs, Freeze)](224_01_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=2e-4
+```
+#### [Predict รอบที่ 1](224_01_Predict_Class_Func.ipynb)
+- classifier accuracy = 75.72%
+- MAE: 0.31071181607868203
+- MSE: 0.15842245076349293
+- RMSE: 0.3980231786761833
+ 
+### [Train รอบที่ 2 (250 epochs, Freeze)](224_02_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=2e-4
+```
+#### [Predict รอบที่ 2](224_02_Predict_Class_Func.ipynb)
+- classifier accuracy = 76.35%
+- MAE: 0.2990765265628107
+- MSE: 0.16170641546095552
+- RMSE: 0.40212736223857676
+  
+### [Train รอบที่ 3 (250 epochs, Unfreeze)](224_03_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate=2e-5
+```
+#### [Predict รอบที่ 3](224_03_Predict_Class_Func.ipynb)
+- classifier accuracy = 84.52%
+- MAE: 0.16445366192832148
+- MSE: 0.1234872460014169
+- RMSE: 0.35140752126472324
+
+### [Train รอบที่ 4 (250 epochs, Unfreeze)](224_04_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate=2e-5
+```
+#### [Predict รอบที่ 4](224_04_Predict_Class_Func.ipynb)
+- classifier accuracy = 85.90%
+- MAE: 0.14529008906873825
+- MSE: 0.11789015906040803
+- RMSE: 0.34335136385400894
+
+### [Train รอบที่ 5 (250 epochs, Unfreeze)](224_05_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate=8e-6
+```
+#### [Predict รอบที่ 5](224_05_Predict_Class_Func.ipynb)
+- classifier accuracy = 87.80%
+- MAE: 0.13325601550983818
+- MSE: 0.10793187427755038
+- RMSE: 0.3285298681665799
