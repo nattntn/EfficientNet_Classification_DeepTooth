@@ -129,7 +129,7 @@ learning_rate=8e-5
 - MSE: 0.15164369034994699
 - RMSE: 0.38941454820017574
 
-# แบบที่ 2 224
+# แบบที่ 2 224 (Best Accuracy for EffNet)
 [Drive: Model --> EfficientNet_Class_Func_224](https://drive.google.com/drive/u/0/folders/1-SvD1d9any3AMDkLwb31e2SduLk82sgV)
 ## Parameter
 ```
