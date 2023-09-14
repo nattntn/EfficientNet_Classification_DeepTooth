@@ -209,7 +209,7 @@ learning_rate=8e-6
 - MAE: 0.13325601550983818
 - MSE: 0.10793187427755038
 - RMSE: 0.3285298681665799
-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/6135df37-c24e-4a89-9cc6-7fa40b600182)
+- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/6135df37-c24e-4a89-9cc6-7fa40b600182)
 
 # แบบที่ 3 02 (Lowest RMSE of EffNet)
 [Drive: Model --> EfficientNet_Class_Func](https://drive.google.com/drive/u/0/folders/1-UDJZY5xgdAh5sxG0QnR2NI_G31xN7s7)
@@ -328,5 +328,5 @@ learning_rate= 8e-8
 - MAE: 0.16835615138141136
 - MSE: 0.10422516916178248
 - RMSE: 0.3228392311380116
-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/2394dc36-e435-4717-81c6-3d821a19be1c)
+-![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/2394dc36-e435-4717-81c6-3d821a19be1c)
 
