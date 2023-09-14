@@ -129,7 +129,7 @@ learning_rate=8e-5
 - MSE: 0.15164369034994699
 - RMSE: 0.38941454820017574
 
-# แบบที่ 2 224 (Best Accuracy for EffNet)
+# แบบที่ 2 224 (Best Accuracy of EffNet)
 [Drive: Model --> EfficientNet_Class_Func_224](https://drive.google.com/drive/u/0/folders/1-SvD1d9any3AMDkLwb31e2SduLk82sgV)
 ## Parameter
 ```
@@ -209,3 +209,123 @@ learning_rate=8e-6
 - MAE: 0.13325601550983818
 - MSE: 0.10793187427755038
 - RMSE: 0.3285298681665799
+
+# แบบที่ 3 02 (Lowest RMSE of EffNet)
+[Drive: Model --> EfficientNet_Class_Func](https://drive.google.com/drive/u/0/folders/1-UDJZY5xgdAh5sxG0QnR2NI_G31xN7s7)
+## Parameter
+```
+batch_size = 16
+width = 224
+height = 224
+epochs(All!) = 2,250 (250,250,250,250,250,250,250,250,250)
+dropout_rate = 0.2
+input_shape = (height, width, 3)
+```
+## DataGenerator
+```
+rescale=1./255, #โมเดลส่วนใหญ่ต้องใช้ RGB ในช่วง 0–1
+rotation_range=90,
+fill_mode='reflect',
+horizontal_flip=True,
+vertical_flip=True
+-----------------------------------
+class_mode = 'raw',
+color_mode= 'rgb',
+```
+## compile
+```
+loss= binary_crossentropy
+optimizer= Adam
+metrics= accuracy
+```
+### [Train รอบที่ 1 (250 epochs, Freeze)](02_1_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=2e-4
+```
+#### [Predict รอบที่ 1](02_1_Predict_Class_Func.ipynb)
+- classifier accuracy = 78.47%
+- MAE: 0.28457237939199204
+- MSE: 0.14829514322328702
+- RMSE: 0.3850910843206929
+ 
+### [Train รอบที่ 2 (250 epochs, Freeze)](02_2_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=2e-4
+```
+#### [Predict รอบที่ 2](02_2_Predict_Class_Func.ipynb)
+- classifier accuracy = 78.26%
+- MAE: 0.2774899643803265
+- MSE: 0.14886254335112464
+- RMSE: 0.3858270899653427
+  
+### [Train รอบที่ 3 (250 epochs, Freeze)](02_3_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=2e-5
+```
+#### [Predict รอบที่ 3](02_3_Predict_Class_Func.ipynb)
+- classifier accuracy = 78.58%
+- MAE: 0.26505273066212703
+- MSE: 0.1465098407238998
+- RMSE: 0.38276603914649976
+
+### [Train รอบที่ 4 (250 epochs, Freeze)](02_4_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=2e-5
+```
+#### [Predict รอบที่ 4](02_4_Predict_Class_Func.ipynb)
+- classifier accuracy = 78.69%
+- MAE: 0.27248133876770075
+- MSE: 0.15136578368980314
+- RMSE: 0.38905755832499017
+
+### [Train รอบที่ 5 (250 epochs, Freeze)](02_5_Func_Eff_Classification_Train_250_Freeze.ipynb)
+```
+learning_rate=8e-6
+```
+#### [Predict รอบที่ 5](02_5_Predict_Class_Func.ipynb)
+- classifier accuracy = 78.58%
+- MAE: 0.2663221819079254
+- MSE: 0.147616516459452
+- RMSE: 0.3842089489580533
+
+### [Train รอบที่ 6 (250 epochs, Unfreeze)](02_6_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate= 8e-6
+```
+#### [Predict รอบที่ 6](02_6_Predict_Class_Func.ipynb)
+- classifier accuracy = 86.85%
+- MAE: 0.16980871327073188
+- MSE: 0.10893404435876028
+- RMSE: 0.3300515783309637
+
+### [Train รอบที่ 7 (250 epochs, Unfreeze)](02_7_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate= 8e-7
+```
+#### [Predict รอบที่ 7](02_7_Predict_Class_Func.ipynb)
+- classifier accuracy = 87.06%
+- MAE: 0.16680725170021027
+- MSE: 0.10272266559131953
+- RMSE: 0.3205037684510426
+  
+### [Train รอบที่ 8 (250 epochs, Unfreeze)](02_8_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate= 8e-8
+```
+#### [Predict รอบที่ 8](02_8_Predict_Class_Func.ipynb)
+- classifier accuracy = 86.96 %
+- MAE: 0.16760564975753514
+- MSE: 0.10294154264012242
+- RMSE: 0.3208450445933713
+
+### [Train รอบที่ 9 (250 epochs, Unfreeze)](02_9_Func_Eff_Classification_Train_250_Unfreeze.ipynb)
+```
+learning_rate= 8e-8
+```
+#### [Predict รอบที่ 9](02_9_Predict_Class_Func.ipynb)
+- classifier accuracy = 87.17%
+- MAE: 0.16835615138141136
+- MSE: 0.10422516916178248
+- RMSE: 0.3228392311380116
+![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/2394dc36-e435-4717-81c6-3d821a19be1c)
+
