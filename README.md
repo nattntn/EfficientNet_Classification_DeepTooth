@@ -328,5 +328,5 @@ learning_rate= 8e-8
 - MAE: 0.16835615138141136
 - MSE: 0.10422516916178248
 - RMSE: 0.3228392311380116
--![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/2394dc36-e435-4717-81c6-3d821a19be1c)
+- ![image](https://github.com/natthanich/EfficientNet_Classification_DeepTooth/assets/108257658/2394dc36-e435-4717-81c6-3d821a19be1c)
 
