@@ -3,6 +3,7 @@ Train Classification to predict Gender using EfficientNetB0
 
 # แบบที่ 1 แบบรุ่นพี่
 [Drive: Model --> EfficientNet_Class_ตามรุ่นพี่](https://drive.google.com/drive/u/0/folders/1gcKfLRMW9bdXK00KoxQvzCdfypyPALKf)
+activation='softmax'
 ## Parameter
 ```batch_size = 16
 width = 150
@@ -131,6 +132,7 @@ learning_rate=8e-5
 
 # แบบที่ 2 224 (Best Accuracy of EffNet)
 [Drive: Model --> EfficientNet_Class_Func_224](https://drive.google.com/drive/u/0/folders/1-SvD1d9any3AMDkLwb31e2SduLk82sgV)
+activation='sigmoid'
 ## Parameter
 ```
 batch_size = 16
