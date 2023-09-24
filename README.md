@@ -118,7 +118,7 @@ learning_rate=8e-5
 - MSE: 0.2968421052631579
 - RMSE: 0.5448321808255804
 
-### [Train รอบที่ 5 (50 epochs, Unfreeze)]ของรุ่นพี่_Class_5_Train_8e_5_Unfreeze.ipynb)
+### [Train รอบที่ 5 (50 epochs, Unfreeze)](ของรุ่นพี่_Class_5_Train_8e_5_Unfreeze.ipynb)
 #### Train จากชุดข้อมูลใหม่
 ```
 learning_rate=8e-5
